@@ -16,13 +16,8 @@
         </p>
       </div>
       <div class="col-12 col-md-6 mb-3">
-        <ul class="text-start list-style-none fs-4 p-0">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>C++</li>
-          <li>C</li>
-          <li>BOOTSTRAP</li>
-          <li>VUE.JS</li>
+        <ul class="text-start list-style-none fs-4 p-0 m-0" v-for="skill in skills" :skill="skill">
+          <li>{{ skill }}</li>
         </ul>
       </div>
     </div>
@@ -31,7 +26,19 @@
 
 <script>
 export default {
-  name: "Profile"
+  name: "Profile",
+  data() {
+    return {
+      skills: [
+        "HTML",
+        "CSS",
+        "C++",
+        "C",
+        "BOOTSTRAP",
+        "VUE.JS"
+      ]
+    }
+  }
 }
 </script>
 

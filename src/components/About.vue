@@ -7,10 +7,10 @@
           <h2>About me</h2>
         </div>
         <p class="fs-5">
-          Hi! My name is Jovana Serdarska,<br>
+          Hi! My name is Jovana Serdarska<br>
           and I'm currently a student<br>
           at Faculty of Computer Science<br>
-          and Engineering.I love how technology<br>
+          and Engineering. I love how technology<br>
           improves everyday, making things<br>
           easier and life better for everyone.
         </p>
