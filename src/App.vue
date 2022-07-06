@@ -13,6 +13,7 @@
   text-align: center;
   color: #2c3e50;
 }
+
 nav {
   padding: 30px;
 
@@ -28,9 +29,3 @@ nav {
   }
 }
 </style>
-<script>
-import Navbar from "@/components/layout/Navbar";
-export default {
-  components: {Navbar}
-}
-</script>
