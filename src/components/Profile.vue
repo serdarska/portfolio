@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-12 col-md-6 mb-3 text-start">
         <div class="d-flex">
-          <i class="fa fa-user-circle fa-2x" aria-hidden="true"></i>
-          <h2>Profile</h2>
+          <i class="fa fa-user-circle fa-2x text-col" aria-hidden="true"></i>
+          <h2 class="text-color">Profile</h2>
         </div>
         <p class="fs-5">
           People often describe me as a cheerful<br>
@@ -47,5 +47,11 @@ export default {
   list-style: none;
   font-family: Arial;
   font-weight: bold;
+}
+.text-color{
+  color: crimson;
+}
+.text-col{
+  color: black;
 }
 </style>

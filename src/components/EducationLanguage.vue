@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-6">
         <div class="d-flex">
-          <i class="fa fa-graduation-cap fa-2x" aria-hidden="true"></i>
-          <h2>Education</h2>
+          <i class="fa fa-graduation-cap fa-2x text-col" aria-hidden="true"></i>
+          <h2 class="text-color">Education</h2>
         </div>
         <education v-for="school in schools" :school="school"></education>
       </div>
@@ -65,5 +65,10 @@ export default {
 </script>
 
 <style scoped>
-
+.text-color{
+  color: crimson;
+}
+.text-col{
+  color: black;
+}
 </style>

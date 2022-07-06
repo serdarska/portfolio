@@ -1,5 +1,5 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <main class="container">
+  <main class="container bg-light">
     <name-surname/>
     <about/>
     <profile/>
@@ -19,8 +19,8 @@ export default {
   name: "HomePage",
   components: {
     Info,
-    Profile,
     About,
+    Profile,
     NameSurname,
     EducationLanguage,
   },

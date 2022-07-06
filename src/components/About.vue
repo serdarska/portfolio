@@ -3,8 +3,8 @@
     <div class="row">
       <div class="col-12 col-md-6 my-3 text-start">
         <div class="d-flex">
-          <i class="fa fa-smile-o fa-2x" aria-hidden="true"></i>
-          <h2>About me</h2>
+          <i class="fa fa-smile-o fa-2x text-col" aria-hidden="true"></i>
+          <h2 class="text-color">About me</h2>
         </div>
         <p class="fs-5">
           Hi! My name is Jovana Serdarska<br>
@@ -16,7 +16,7 @@
         </p>
       </div>
       <div class="col-12 col-md-6 my-3 text-start">
-        <h2>Skills</h2>
+        <h2 class="text-color">Skills</h2>
         <p class="fs-5">
           I have always enjoyed challenging<br>
           myself with learning new skills,<br>
@@ -36,5 +36,10 @@ export default {
 </script>
 
 <style scoped>
-
+.text-color{
+  color: crimson;
+}
+.text-col{
+  color: black;
+}
 </style>
