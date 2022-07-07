@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-4 my-5">
         <div class="ratio ratio-1529x1420">
-          <img src="../assets/images/mypicture.jpg" alt="Profile Picture" class="rounded-circle"/>
+          <img src="../assets/images/mypicture.jpg" alt="Profile Picture" class="rounded-circle  border border-5 border-danger"/>
         </div>
       </div>
       <div class="col-8 my-5">
