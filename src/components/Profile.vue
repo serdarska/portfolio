@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="row">
-      <div class="col-12 col-md-6 mb-3 text-start">
+      <div class="order-1 order-md-0 col-12 col-md-6 mb-3 text-start">
         <div class="d-flex">
           <i class="fa fa-user-circle fa-2x text-col" aria-hidden="true"></i>
           <h2 class="text-color">Profile</h2>
@@ -15,8 +15,8 @@
           new every day is the key to success.
         </p>
       </div>
-      <div class="col-12 col-md-6 mb-3">
-        <ul class="text-start list-style-none fs-4 p-0 m-0" v-for="skill in skills" :skill="skill">
+      <div class="order-3 order-md-0 col-12 col-md-6 mb-3">
+        <ul class="text-start list-style-none fs-4 p-0 m-0" v-for="skill in skills">
           <li>{{ skill }}</li>
         </ul>
       </div>
@@ -45,7 +45,7 @@ export default {
 <style scoped>
 .list-style-none {
   list-style: none;
-  font-family: Arial;
+  font-family: Arial,serif;
   font-weight: bold;
 }
 .text-color{

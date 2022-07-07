@@ -13,8 +13,8 @@
              aria-valuemin="0" aria-valuemax="100"></div>
       </div>
       <h2 class="mt-5 text-color">Hobbies</h2>
-      <ul class="fs-5 text-font">
-        <li class="me-sm-3 p-0" v-for="hobby in hobbies">{{ hobby }}</li>
+      <ul class="fs-5 text-font ps-0">
+        <li class="me-sm-3 pe-3" v-for="hobby in hobbies">{{ hobby }}</li>
       </ul>
       <h2 class="mt-5 text-color">Social Media</h2>
       <div class="d-flex ps-5">
@@ -57,13 +57,14 @@ export default {
 }
 
 .text-font {
-  font-family: Arial,serif;
+  font-family: Arial, serif;
 }
 
 ul {
   columns: 2;
 }
-.text-color{
+
+.text-color {
   color: crimson;
 }
 </style>
