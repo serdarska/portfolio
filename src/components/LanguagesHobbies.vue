@@ -17,12 +17,15 @@
         <li class="me-sm-3 pe-3" v-for="hobby in hobbies">{{ hobby }}</li>
       </ul>
       <h2 class="mt-5 text-color">Social Media</h2>
-      <div class="d-flex ps-5">
+      <div class="d-flex ps-4">
         <a href="https://www.facebook.com/jovana.serdarska/" class="pe-3">
           <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
         </a>
-        <a href="https://www.instagram.com/serdarskaj/">
+        <a href="https://www.instagram.com/serdarskaj/" class="pe-3">
           <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/feed/">
+          <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
         </a>
       </div>
     </div>

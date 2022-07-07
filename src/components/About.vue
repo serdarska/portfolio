@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="row">
-      <div class="order-0 order-md-0 col-12 col-md-6 my-3 text-start">
+      <div class="order-1 col-12 col-md-6 my-3 text-start">
         <div class="d-flex">
           <i class="fa fa-smile-o fa-2x text-col" aria-hidden="true"></i>
           <h2 class="text-color">About me</h2>
@@ -15,7 +15,7 @@
           easier and life better for everyone.
         </p>
       </div>
-      <div class="order-2 order-md-0 col-12 col-md-6 my-3 text-start">
+      <div class="order-3  col-12 col-md-6 my-3 text-start">
         <h2 class="text-color">Skills</h2>
         <p class="fs-5">
           I have always enjoyed challenging<br>

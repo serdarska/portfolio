@@ -53,7 +53,7 @@ export default {
         {
           schoolType: "Primary School",
           year: "2007-2016",
-          schoolName: "Kiril and Metodij",
+          schoolName: "Cyril and Methodius",
           ulPart: [
             "5.0 GPA",
           ]

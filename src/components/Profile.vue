@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="row">
-      <div class="order-1 order-md-0 col-12 col-md-6 mb-3 text-start">
+      <div class="order-2  col-12 col-md-6 mb-3 text-start">
         <div class="d-flex">
           <i class="fa fa-user-circle fa-2x text-col" aria-hidden="true"></i>
           <h2 class="text-color">Profile</h2>
@@ -15,7 +15,7 @@
           new every day is the key to success.
         </p>
       </div>
-      <div class="order-3 order-md-0 col-12 col-md-6 mb-3">
+      <div class="order-4  col-12 col-md-6 mb-3">
         <ul class="text-start list-style-none fs-4 p-0 m-0" v-for="skill in skills">
           <li>{{ skill }}</li>
         </ul>
