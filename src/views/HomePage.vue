@@ -1,5 +1,5 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <main class="container bg-light">
+  <main class="container bg-light border border-5 border-danger">
     <name-surname/>
     <about/>
     <profile/>
