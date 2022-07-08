@@ -1,9 +1,9 @@
 <template>
   <section>
-    <div class="row">
+    <div class="row pb-5">
       <div class="col-6">
-        <div class="d-flex">
-          <i class="fa fa-graduation-cap fa-2x text-col" aria-hidden="true"></i>
+        <div class="d-flex ps-5">
+          <i class="fa fa-graduation-cap fa-2x text-color-black" aria-hidden="true"></i>
           <h2 class="text-color">Education</h2>
         </div>
         <education v-for="school in schools" :school="school"></education>
@@ -35,7 +35,7 @@ export default {
           schoolType: "University",
           year: "2020-Present",
           schoolName: "Faculty of Computer Science and Engineering",
-          ulPart: [
+          description: [
             "Software engineering and information systems"
           ]
         },
@@ -43,7 +43,7 @@ export default {
           schoolType: "High School",
           year: "2016-2020",
           schoolName: "Ljupco Santov",
-          ulPart: [
+          description: [
             "Graduated with High Honors",
             "5.0 GPA",
             "Member of Mathematics Section",
@@ -54,8 +54,8 @@ export default {
           schoolType: "Primary School",
           year: "2007-2016",
           schoolName: "Cyril and Methodius",
-          ulPart: [
-            "5.0 GPA",
+          description: [
+            "5.0 GPA"
           ]
         }
       ]
@@ -65,10 +65,5 @@ export default {
 </script>
 
 <style scoped>
-.text-color{
-  color: crimson;
-}
-.text-col{
-  color: black;
-}
+
 </style>

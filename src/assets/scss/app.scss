@@ -2,6 +2,10 @@ $fa-font-path: "~font-awesome/fonts";
 @import "~font-awesome/scss/font-awesome";
 @import "~bootstrap/scss/bootstrap";
 
-.ratio-1529x1420 {
-  --bs-aspect-ratio: calc(1420 / 1529 * 100%);
+.ratio-1333x1227 {
+  --bs-aspect-ratio: calc(1227 / 1333 * 100%);
+}
+
+.text-color {
+  color: crimson;
 }

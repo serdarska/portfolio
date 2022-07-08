@@ -1,6 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
-  <main class="container bg-light border border-5 border-danger">
-    <name-surname/>
+  <main class="container-fluid bg-light">
+    <navbar/>
+    <name/>
     <about/>
     <profile/>
     <education-language/>
@@ -10,19 +11,22 @@
 
 <script>
 import Info from "@/components/Info";
+import Name from "@/components/Name";
 import About from "@/components/About";
+import Navbar from "@/components/Navbar";
 import Profile from "@/components/Profile";
-import NameSurname from "@/components/NameSurname";
 import EducationLanguage from "@/components/EducationLanguage";
+
 
 export default {
   name: "HomePage",
   components: {
     Info,
+    Name,
     About,
+    Navbar,
     Profile,
-    NameSurname,
-    EducationLanguage,
+    EducationLanguage
   },
   props: {
     skill: Array
