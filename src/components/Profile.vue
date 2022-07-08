@@ -1,7 +1,7 @@
 <template>
   <section>
     <div class="row">
-      <div class="col col-12 order-1 order-md-0 col-md-6 mb-3 ps-5 text-start">
+      <div class="col col-12 order-1 order-md-0 col-md-6 mb-3 ps-0 ps-md-5 text-start">
         <div class="d-flex">
           <i class="fa fa-user-circle fa-2x text-color-black" aria-hidden="true"></i>
           <h2 class="text-color">Profile</h2>

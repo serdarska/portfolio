@@ -2,7 +2,7 @@
   <section>
     <div class="row pb-5">
       <div class="col-6">
-        <div class="d-flex ps-5">
+        <div class="d-flex ps-0 ps-md-5">
           <i class="fa fa-graduation-cap fa-2x text-color-black" aria-hidden="true"></i>
           <h2 class="text-color">Education</h2>
         </div>
