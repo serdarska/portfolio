@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="row py-5 bg-black border border-start-0 border-end-0 border-bottom-0 border-5 border-danger">
+    <div class="row py-5 bg-black border-change">
       <div class="col-12 text-center">
         <h3 class="m-0 pb-2 text-color fw-bold text-uppercase">Contact</h3>
         <h1 class="mb-5 text-white">I'd Love To Hear From You.</h1>
@@ -31,5 +31,9 @@ export default {
 </script>
 
 <style scoped>
-
+.border-change {
+  border-top-color: crimson;
+  border-top-style: solid;
+  border-width: 10px;
+}
 </style>
